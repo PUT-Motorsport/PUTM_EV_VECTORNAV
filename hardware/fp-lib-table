@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "stm32")(type "KiCad")(uri "${KIPRJMOD}/Footprints/stm32.pretty")(options "")(descr ""))
+  (lib (name "isocan")(type "KiCad")(uri "${KIPRJMOD}/Footprints/isocan.pretty")(options "")(descr ""))
+  (lib (name "samacsys")(type "KiCad")(uri "${KIPRJMOD}/Footprints/samacsys.pretty")(options "")(descr ""))
+  (lib (name "iso_conv")(type "KiCad")(uri "${KIPRJMOD}/Footprints/iso_conv.pretty")(options "")(descr ""))
+  (lib (name "QFN50P400X400X80-25N-D")(type "KiCad")(uri "${KIPRJMOD}/Footprints/QFN50P400X400X80-25N-D.pretty")(options "")(descr ""))
+  (lib (name "antenna")(type "KiCad")(uri "${KIPRJMOD}/Footprints/antenna.pretty")(options "")(descr ""))
+  (lib (name "electrolytic_cap")(type "KiCad")(uri "${KIPRJMOD}/Footprints/electrolytic_cap.pretty")(options "")(descr ""))
+  (lib (name "inductor")(type "KiCad")(uri "${KIPRJMOD}/Footprints/inductor.pretty")(options "")(descr ""))
+  (lib (name "DCisoconv")(type "KiCad")(uri "${KIPRJMOD}/Footprints/DCisoconv.pretty")(options "")(descr ""))
+)
