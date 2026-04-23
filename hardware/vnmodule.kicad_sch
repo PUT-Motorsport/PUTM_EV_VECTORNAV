@@ -1222,16 +1222,20 @@
 		(uuid "dcf58108-2d88-4985-b43f-fc1829ce0add")
 	)
 	(no_connect
+		(at 151.13 90.17)
+		(uuid "1c9d6b2f-d438-4d58-8b68-457e96e624f8")
+	)
+	(no_connect
+		(at 151.13 87.63)
+		(uuid "333e1334-2725-43cf-8421-b38ace6beb72")
+	)
+	(no_connect
 		(at 151.13 82.55)
 		(uuid "78192592-4de3-48d7-a732-d1ec9d41c2b2")
 	)
 	(no_connect
 		(at 151.13 78.74)
 		(uuid "b45fd670-4e0f-4dee-836c-f7cbc08e5100")
-	)
-	(no_connect
-		(at 100.33 93.98)
-		(uuid "b464419c-ecd0-4d19-9c87-f2c299b27c3c")
 	)
 	(wire
 		(pts
@@ -1345,16 +1349,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 90.17) (xy 151.13 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad4d793-0ef1-4786-bdec-7212674d30c0")
-	)
-	(wire
-		(pts
 			(xy 128.27 123.19) (xy 128.27 125.73)
 		)
 		(stroke
@@ -1392,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "88839eb5-e614-4629-87e5-45c2acfcd272")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fb50e1-0d4b-451c-8b3e-ede34e00d05a")
 	)
 	(wire
 		(pts
@@ -1462,16 +1466,6 @@
 			(type default)
 		)
 		(uuid "be8dc886-4fdc-4ec1-bd2d-556fff70a50f")
-	)
-	(wire
-		(pts
-			(xy 157.48 87.63) (xy 151.13 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21ab41e-b453-4dbf-8ef0-b787604fd54d")
 	)
 	(wire
 		(pts
@@ -1585,16 +1579,16 @@
 		)
 		(uuid "38e10650-8ff2-4c8f-aeab-52aa63862729")
 	)
-	(hierarchical_label "SNC_IN"
+	(hierarchical_label "GNSS_SYNC"
 		(shape input)
-		(at 157.48 90.17 0)
+		(at 93.98 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "4188569c-2876-4cf6-a75e-f093634f0ad8")
+		(uuid "460ef977-9185-48a7-893d-b10bc531893b")
 	)
 	(hierarchical_label "CS"
 		(shape input)
@@ -1650,17 +1644,6 @@
 			(justify right)
 		)
 		(uuid "85e6c288-9f4c-42a4-a5ed-31b9fa64c908")
-	)
-	(hierarchical_label "SNC_OUT"
-		(shape output)
-		(at 157.48 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b44bdd6-e07c-446f-94ce-1f0df9322e2c")
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
@@ -2220,8 +2203,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 162.814 101.6 90)
+		(property "Value" "33R"
+			(at 163.322 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)

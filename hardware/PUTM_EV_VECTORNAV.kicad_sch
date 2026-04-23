@@ -12,16 +12,6 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 82.55 111.76) (xy 120.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0058a499-a9ec-4c9a-957e-a11690aa91f0")
-	)
-	(wire
-		(pts
 			(xy 138.43 58.42) (xy 138.43 76.2)
 		)
 		(stroke
@@ -470,7 +460,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_RX" input
+		(pin "CAN_RX" output
 			(at 204.47 87.63 180)
 			(uuid "a5e546c1-a7dc-4e06-8dc5-7fd8ba1c3680")
 			(effects
@@ -608,26 +598,6 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_RX" input
-			(at 171.45 85.09 0)
-			(uuid "bc3d96be-7cf4-4a5d-91d5-98510f4104b1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CAN_TX" input
-			(at 171.45 87.63 0)
-			(uuid "ba4d5402-0a10-4b01-8cd0-7166a787ea6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "VN_CS" input
 			(at 120.65 82.55 180)
 			(uuid "45524438-2f6c-4808-b80f-e5a565519371")
@@ -688,16 +658,6 @@
 				(justify left)
 			)
 		)
-		(pin "VN_RX" input
-			(at 120.65 97.79 180)
-			(uuid "efe61fb8-45ec-4417-ad40-8fe402e429d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VN_SCK" input
 			(at 120.65 90.17 180)
 			(uuid "388159b9-d152-4436-9008-768599b4a057")
@@ -708,37 +668,7 @@
 				(justify left)
 			)
 		)
-		(pin "VN_SNC_IN" input
-			(at 120.65 111.76 180)
-			(uuid "d6e947ac-c236-4c5d-9f94-013caf8a46b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VN_SNC_OUT" output
-			(at 120.65 114.3 180)
-			(uuid "fa9f82c1-1e96-4e57-b8b8-d13c0ef91d8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VN_TX" output
-			(at 120.65 95.25 180)
-			(uuid "9199d14a-99db-4221-b1fe-d851bba09503")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN_STBY" input
+		(pin "CAN_STBY" output
 			(at 171.45 90.17 0)
 			(uuid "536aa57f-9ac7-4a58-9f5f-abcdc62767c2")
 			(effects
@@ -806,6 +736,56 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VN_RX" input
+			(at 120.65 95.25 180)
+			(uuid "4261fa03-7ec3-41ff-973e-0b9b43dbf45c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VN_TX" output
+			(at 120.65 97.79 180)
+			(uuid "a792ad73-1095-4d1e-8c4c-f58628c78cef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 171.45 87.63 0)
+			(uuid "38ade31b-18b9-4777-89ad-ff561d2ae9b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 171.45 85.09 0)
+			(uuid "fe919e40-cfd2-475e-b430-194b60d4f5fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VN_GNSS_SYNC" input
+			(at 120.65 114.3 180)
+			(uuid "96160cde-94eb-4fed-91b2-eb71da55145a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -942,26 +922,6 @@
 				(justify right)
 			)
 		)
-		(pin "SNC_IN" input
-			(at 82.55 111.76 0)
-			(uuid "c5f2be3d-71ae-4484-aa0c-741fc7cbdcf0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SNC_OUT" output
-			(at 82.55 114.3 0)
-			(uuid "9f125d28-e26c-4a47-a895-42520e5e3027")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "TX1" output
 			(at 64.77 76.2 90)
 			(uuid "e953319c-5fb2-40ba-b323-8fc3d520b8e0")
@@ -975,6 +935,16 @@
 		(pin "TX2" output
 			(at 82.55 95.25 0)
 			(uuid "c8289837-8a73-4d44-b842-f23436f31545")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GNSS_SYNC" input
+			(at 82.55 114.3 0)
+			(uuid "e3099c26-5309-47d8-b830-59612b70e065")
 			(effects
 				(font
 					(size 1.27 1.27)

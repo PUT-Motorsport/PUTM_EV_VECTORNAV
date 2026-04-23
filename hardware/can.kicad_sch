@@ -1780,16 +1780,6 @@
 		)
 		(uuid "30b2960c-87f1-4221-9d3c-5b09fe72d5ed")
 	)
-	(polyline
-		(pts
-			(xy 125.73 37.846) (xy 125.476 136.906)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-		)
-		(uuid "318e3d3e-0612-4825-96de-c78bde4555e3")
-	)
 	(wire
 		(pts
 			(xy 74.93 121.92) (xy 82.55 121.92)
@@ -1889,6 +1879,17 @@
 			(type default)
 		)
 		(uuid "4271d5b0-b7e4-48cc-b00c-558aeca43e35")
+	)
+	(polyline
+		(pts
+			(xy 126.238 12.192) (xy 126.238 197.866)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "43b1874b-de3d-4032-88fa-5f9aed0697a8")
 	)
 	(wire
 		(pts
@@ -2259,6 +2260,17 @@
 			(type default)
 		)
 		(uuid "ed302ac2-c203-4728-b876-9a851698a372")
+	)
+	(polyline
+		(pts
+			(xy 125.222 12.192) (xy 125.222 197.866)
+		)
+		(stroke
+			(width 0.381)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "fd23b5c0-1f18-4339-8796-5302fbd08acc")
 	)
 	(label "CAN+"
 		(at 104.14 73.66 0)
