@@ -2478,7 +2478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0541ecaa-7cb0-49a4-b662-6f6cc5a40ba7")
-		(property "Reference" "FB1"
+		(property "Reference" "FB2"
 			(at 139.7 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,7 +2575,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "FB1")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a43580-1f03-4e35-bbc7-f5c7832dd952")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR052"
 			(at 171.45 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2653,7 +2653,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR013")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2670,8 +2670,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23f2821b-0422-4653-a3f9-fb901b45f803")
-		(property "Reference" "C5"
-			(at 134.62 40.386 90)
+		(property "Reference" "C3"
+			(at 134.62 40.894 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2680,7 +2680,7 @@
 				)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "47uF"
 			(at 134.62 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +2765,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2782,7 +2782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27cb3578-823d-4345-b9ff-bb283d1713c1")
-		(property "Reference" "FB4"
+		(property "Reference" "FB5"
 			(at 86.36 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2877,7 +2877,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "FB4")
+					(reference "FB5")
 					(unit 1)
 				)
 			)
@@ -2894,8 +2894,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28d37a2f-4453-4fe8-8fe7-22b93f05b57a")
-		(property "Reference" "C7"
-			(at 166.37 40.132 90)
+		(property "Reference" "C4"
+			(at 166.37 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2904,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 166.37 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3006,7 +3006,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b1a1c5a-d478-4144-8ce4-ffe88448f9ff")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR055"
 			(at 82.55 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3066,7 +3066,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR016")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3084,7 +3084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33e17f2e-7fa2-4eae-877a-73ebb43aa31f")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 121.0467 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +3235,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3252,7 +3252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48a48d2f-731d-4727-a7e0-390959a0e3d0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR049"
 			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3312,7 +3312,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR010")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -3330,7 +3330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "601801b0-02ef-426e-a8f8-a89cdeb44317")
-		(property "Reference" "FB2"
+		(property "Reference" "FB3"
 			(at 154.94 49.568 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,7 +3427,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "FB2")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -3444,7 +3444,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "617c40b1-1087-45b3-aaf6-b5d3ddaac4b1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR053"
 			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3504,7 +3504,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR014")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3521,8 +3521,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6744a424-276c-4f80-8dc7-27640dcefff9")
-		(property "Reference" "C9"
-			(at 76.2 96.52 0)
+		(property "Reference" "C7"
+			(at 76.2 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3532,8 +3532,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
-			(at 76.2 99.06 0)
+		(property "Value" "47uF"
+			(at 76.2 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3618,7 +3618,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3635,8 +3635,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "706d66fe-96df-430b-8d83-5a1ba4179289")
-		(property "Reference" "C6"
-			(at 134.62 59.69 90)
+		(property "Reference" "C5"
+			(at 134.62 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3645,7 +3645,7 @@
 				)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "47uF"
 			(at 134.62 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +3730,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3748,7 +3748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ba9c536-b815-4af5-a680-e046c46b0ae4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR050"
 			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3808,7 +3808,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR08")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3826,7 +3826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cba4bf6-fb71-4b1b-ae5c-4064d5c74dc2")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR054"
 			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3886,7 +3886,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR015")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "843493e7-ed9c-443c-b2ca-9fdc12caa7c0")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR051"
 			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3964,7 +3964,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#PWR012")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3981,8 +3981,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "876cd59d-f0fa-4418-a556-f3de64434238")
-		(property "Reference" "C11"
-			(at 62.23 109.22 0)
+		(property "Reference" "C9"
+			(at 63.246 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3992,7 +3992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 62.23 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +4078,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4097,7 +4097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a174d352-9c63-4285-82f1-c5b1cfaaf954")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG06"
 			(at 157.48 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -4157,7 +4157,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#FLG03")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -4175,8 +4175,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a6add5d2-7876-4dda-977d-8161b7f4f6d7")
-		(property "Reference" "R8"
-			(at 100.33 105.41 90)
+		(property "Reference" "R9"
+			(at 100.076 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4208,7 +4208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/40/1/CRT.pdf"
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 101.6 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4230,7 +4230,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Bourns/CRT0603-FZ-1003ELF?qs=fgHA1UgJI8BbszSkndSeLg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
 			(at 101.6 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4272,7 +4272,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4289,8 +4289,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5083acb-5807-4088-b1a4-4727c783f121")
-		(property "Reference" "C12"
-			(at 80.01 109.22 0)
+		(property "Reference" "C10"
+			(at 80.01 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4299,8 +4299,8 @@
 				)
 			)
 		)
-		(property "Value" "10n"
-			(at 80.01 111.76 0)
+		(property "Value" "10nF"
+			(at 80.01 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4320,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GCM188R71H103KA37%22%5D&oripartnumbers=%5B%22GCM188R71H103KA37J%22%5D&rgear=suaykx&rgearinfo=com"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4342,7 +4342,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C103J5RACAUTO?qs=7LShN427%2FM4jm7UAE70%2Fzg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GCM188R71H103KA37J?qs=sGAEpiMZZMvsSlwiRhF8qnaoi2Fm8R54ysHo1JQ%252BIYI%3D"
 			(at 76.2 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4384,7 +4384,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C12")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4401,8 +4401,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6e11961-f5a4-4bba-8d26-61c172b9177a")
-		(property "Reference" "C8"
-			(at 166.37 59.69 90)
+		(property "Reference" "C6"
+			(at 166.37 60.452 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4411,7 +4411,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10nF"
 			(at 166.37 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/KEM_C1023_X7R_AUTO_SMD.pdf"
+		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GCM188R71H103KA37%22%5D&oripartnumbers=%5B%22GCM188R71H103KA37J%22%5D&rgear=suaykx&rgearinfo=com"
 			(at 166.37 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4454,7 +4454,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C103J5RACAUTO?qs=7LShN427%2FM4jm7UAE70%2Fzg%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GCM188R71H103KA37J?qs=sGAEpiMZZMvsSlwiRhF8qnaoi2Fm8R54ysHo1JQ%252BIYI%3D"
 			(at 166.37 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4496,7 +4496,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4515,7 +4515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca35147a-6e5a-40ef-b0c1-9ac91c2c57ab")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG05"
 			(at 143.51 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -4575,7 +4575,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "#FLG02")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -4592,8 +4592,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1942234-76be-4b98-8ebf-3a9322868cd9")
-		(property "Reference" "C10"
-			(at 102.616 96.52 0)
+		(property "Reference" "C8"
+			(at 102.616 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4603,8 +4603,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47u"
-			(at 102.616 99.06 0)
+		(property "Value" "47uF"
+			(at 102.616 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4689,7 +4689,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4707,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d680bd20-634f-45ac-bb42-9a9735d08450")
-		(property "Reference" "FB3"
+		(property "Reference" "FB4"
 			(at 91.4019 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4802,7 +4802,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "FB3")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -4819,7 +4819,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de9a7a9e-c097-4397-9bd7-04e76386d203")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 84.328 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4916,7 +4916,7 @@
 		(instances
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6e91e59c-6d68-49dd-aa8f-280bebaa77c5"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
