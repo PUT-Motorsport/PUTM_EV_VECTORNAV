@@ -1637,22 +1637,10 @@
 		)
 	)
 	(junction
-		(at 76.2 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00fd60f0-f3ef-4ca5-a0f0-94e4960dca11")
-	)
-	(junction
 		(at 148.59 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "016bb239-bcec-46ba-a216-c49bff97f8bf")
-	)
-	(junction
-		(at 76.2 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08e0d67f-ff01-4c39-9387-567dcd62eb26")
 	)
 	(junction
 		(at 152.4 45.72)
@@ -1715,6 +1703,12 @@
 		(uuid "8ab1e08a-192a-4ab4-a3cf-9c64a364bbf5")
 	)
 	(junction
+		(at 74.93 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2d2b08-4566-4ffd-83b0-cd43d7fe16da")
+	)
+	(junction
 		(at 152.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1731,6 +1725,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9475140-4d6f-4ae9-bb0f-4ee522b94ad3")
+	)
+	(junction
+		(at 74.93 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15cbcd3-4a8e-4f44-b48c-9f1e2068e374")
 	)
 	(junction
 		(at 143.51 57.15)
@@ -1769,16 +1769,6 @@
 			(type default)
 		)
 		(uuid "d578eb03-6890-4fde-aac9-c57947c4ffd9")
-	)
-	(wire
-		(pts
-			(xy 76.2 107.95) (xy 110.49 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "018f3fe1-030e-465a-a9c2-2da4aa747118")
 	)
 	(wire
 		(pts
@@ -1962,7 +1952,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 107.95) (xy 76.2 107.95)
+			(xy 68.58 107.95) (xy 74.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2073,6 +2063,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 107.95) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e37aeb6-be78-4f98-92a7-6389f7846e03")
+	)
+	(wire
+		(pts
 			(xy 148.59 53.34) (xy 148.59 57.15)
 		)
 		(stroke
@@ -2140,16 +2140,6 @@
 			(type default)
 		)
 		(uuid "8f4220af-eb63-436b-9ee4-4c1d4b77c625")
-	)
-	(wire
-		(pts
-			(xy 76.2 113.03) (xy 82.55 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa47590-f46d-47d1-a995-5693d7553bee")
 	)
 	(wire
 		(pts
@@ -2263,7 +2253,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 113.03) (xy 76.2 113.03)
+			(xy 74.93 113.03) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67f6d2c-ddba-4538-8cc5-f9d0a538479a")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 74.93 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2566,6 +2566,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 148.59 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 148.59 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 148.59 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "eac9d9e1-a4ce-4f6d-9d3f-f1058a8921d1")
 		)
@@ -2756,6 +2800,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 134.62 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 134.62 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 134.62 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 134.62 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4df62bac-1a35-466d-bb1f-eb2c8375fe47")
 		)
@@ -2868,6 +2956,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 91.44 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 91.44 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 91.44 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c34038b-ad55-4f09-b8be-0c15c687d598")
 		)
@@ -2970,6 +3102,50 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
+			(at 166.37 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 166.37 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 166.37 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 166.37 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -3162,6 +3338,50 @@
 			)
 		)
 		(property "Mouser No" "584-ADM3057EBRWZ"
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 125.73 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3418,6 +3638,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "591371e7-7e10-4fc9-924f-2e146ae5edc1")
 		)
@@ -3522,7 +3786,7 @@
 		(dnp no)
 		(uuid "6744a424-276c-4f80-8dc7-27640dcefff9")
 		(property "Reference" "C7"
-			(at 76.2 96.774 0)
+			(at 77.978 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3533,7 +3797,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 76.2 98.806 0)
+			(at 75.692 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3599,6 +3863,50 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
+			(at 82.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 82.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 82.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 82.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3711,6 +4019,50 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
+			(at 134.62 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 134.62 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 134.62 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 134.62 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 134.62 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -3982,7 +4334,7 @@
 		(dnp no)
 		(uuid "876cd59d-f0fa-4418-a556-f3de64434238")
 		(property "Reference" "C9"
-			(at 63.246 109.728 0)
+			(at 64.008 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3993,7 +4345,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 62.23 111.76 0)
+			(at 60.706 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4059,6 +4411,50 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 68.58 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4186,8 +4582,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 99.314 103.124 90)
+		(property "Value" "0R"
+			(at 100.076 103.124 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4208,7 +4604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Yageo_06282023_ACseries.pdf"
 			(at 101.6 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4230,29 +4626,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
-			(at 101.6 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRT0603-FZ-1003ELF"
-			(at 101.6 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser No" "652-CRT0603FZ1003ELF"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603FR-070RL?qs=sGAEpiMZZMvdGkrng054twUTJTt6PrteAAGHxHJiSGg%3D"
 			(at 101.6 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4280,7 +4654,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 76.2 110.49 0)
+		(at 74.93 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4290,7 +4664,7 @@
 		(dnp no)
 		(uuid "b5083acb-5807-4088-b1a4-4727c783f121")
 		(property "Reference" "C10"
-			(at 80.01 109.474 0)
+			(at 78.74 109.474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4300,7 +4674,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 80.01 111.506 0)
+			(at 79.248 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4310,7 +4684,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 76.2 110.49 0)
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4695,7 @@
 			)
 		)
 		(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GCM188R71H103KA37%22%5D&oripartnumbers=%5B%22GCM188R71H103KA37J%22%5D&rgear=suaykx&rgearinfo=com"
-			(at 76.2 110.49 0)
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,7 +4706,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 76.2 110.49 0)
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +4717,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GCM188R71H103KA37J?qs=sGAEpiMZZMvsSlwiRhF8qnaoi2Fm8R54ysHo1JQ%252BIYI%3D"
-			(at 76.2 110.49 0)
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4354,7 +4728,7 @@
 			)
 		)
 		(property "Mouser No" "80-C0603C103J5RAUTO"
-			(at 76.2 110.49 0)
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4739,51 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C103J5RACAUTO"
-			(at 76.2 110.49 0)
+			(at 74.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 74.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 74.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 74.93 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,6 +4895,50 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C103J5RACAUTO"
+			(at 166.37 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 166.37 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 166.37 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 166.37 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 166.37 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4680,6 +5142,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f832de1e-b4b0-4c01-919c-0f24289dbd5d")
 		)
@@ -4783,6 +5289,50 @@
 			)
 		)
 		(property "Mouser No" "623-2508052027Y1"
+			(at 91.44 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 91.44 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 91.44 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 91.44 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 91.44 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -4897,6 +5447,50 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
+			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)

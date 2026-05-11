@@ -1883,6 +1883,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 83.82) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fa82ab-5647-4b10-b432-d5b06f449cae")
+	)
+	(wire
+		(pts
 			(xy 54.61 102.87) (xy 49.53 102.87)
 		)
 		(stroke
@@ -1893,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 81.28) (xy 100.33 81.28)
+			(xy 81.28 81.28) (xy 100.33 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1943,6 +1953,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 73.66) (xy 83.82 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e419e53-f32b-4409-bdd3-7dddb6d40ea6")
+	)
+	(wire
+		(pts
 			(xy 189.23 102.87) (xy 185.42 102.87)
 		)
 		(stroke
@@ -1970,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "433f7cff-ed8b-4562-b7ac-ad5a37984b39")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452667bf-208d-4e7f-95f8-445b47030d9f")
 	)
 	(wire
 		(pts
@@ -2063,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 73.66) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd8d922-3803-404e-93bd-7f676ab2cc05")
+	)
+	(wire
+		(pts
 			(xy 54.61 113.03) (xy 54.61 115.57)
 		)
 		(stroke
@@ -2080,6 +2120,16 @@
 			(type default)
 		)
 		(uuid "8659df7a-8194-4749-bfa8-56259d7b089d")
+	)
+	(wire
+		(pts
+			(xy 81.28 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87348fb5-c4f2-46bf-9e20-1fe46dea29ba")
 	)
 	(wire
 		(pts
@@ -2110,6 +2160,16 @@
 			(type default)
 		)
 		(uuid "8eb10747-bb72-4c47-a8e9-cc79f65ace7e")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 83.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffb3212-8ac1-4217-a30c-7b1923da3380")
 	)
 	(wire
 		(pts
@@ -2233,16 +2293,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 78.74) (xy 100.33 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e57d4274-bd73-41c0-9d66-fe77cbe28bc7")
-	)
-	(wire
-		(pts
 			(xy 130.81 125.73) (xy 133.35 125.73)
 		)
 		(stroke
@@ -2273,7 +2323,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 83.82) (xy 100.33 83.82)
+			(xy 83.82 78.74) (xy 100.33 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee36dc32-4266-4180-84af-bb6b2b5d48a0")
+	)
+	(wire
+		(pts
+			(xy 71.12 88.9) (xy 73.66 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2301,6 +2361,16 @@
 		)
 		(uuid "f87f8137-00dc-43b0-af81-80e62cb83959")
 	)
+	(wire
+		(pts
+			(xy 83.82 88.9) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed8361e-d13f-45f5-a617-41b2ecd5a3b1")
+	)
 	(label "GPS_PPS"
 		(at 73.66 102.87 180)
 		(effects
@@ -2323,7 +2393,7 @@
 	)
 	(hierarchical_label "RESTORE"
 		(shape input)
-		(at 93.98 78.74 180)
+		(at 71.12 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2400,7 +2470,7 @@
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 93.98 83.82 180)
+		(at 71.12 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2433,7 +2503,7 @@
 	)
 	(hierarchical_label "EN"
 		(shape input)
-		(at 93.98 81.28 180)
+		(at 71.12 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2563,7 +2633,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 41.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2574,7 +2644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS55040.pdf"
 			(at 41.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2597,6 +2667,61 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 41.91 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150060BS55040?qs=fAHHVMwC%252BbiEgEQkEQqtiA%3D%3D"
+			(at 41.91 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 41.91 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 41.91 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 41.91 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 41.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2700,6 +2825,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 44.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 44.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 44.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "41dd3d20-4e2b-4720-804a-d4aab5136997")
 		)
@@ -2783,6 +2952,50 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/AC0603FR-0710KL?qs=sGAEpiMZZMvdGkrng054twUTJTt6PrteoOnNK8bZ1p8%3D"
+			(at 54.61 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 54.61 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 54.61 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 54.61 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 54.61 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -3040,6 +3253,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 157.48 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 157.48 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 157.48 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "40d80f46-4816-44ec-941a-224ff9dd53dc")
 		)
@@ -3245,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "vectornav:7X8CASTLE"
 			(at 123.952 99.314 0)
 			(hide yes)
 			(show_name no)
@@ -3390,6 +3647,141 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 77.47 73.66 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99d299f8-da92-44b4-8ed6-a63e3fb16d17")
+		(property "Reference" "R17"
+			(at 77.47 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 77.47 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 77.47 75.438 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
+			(at 77.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/TR0603MR-07100RL?qs=sGAEpiMZZMvdGkrng054t7hACl%252BKjm7Mu6Zvq%2FxQBmngQeA8SnN0%252BA%3D%3D"
+			(at 77.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 77.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 77.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 77.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5756ceca-a43a-4468-908c-22365cf07349")
+		)
+		(pin "1"
+			(uuid "f19c964e-da74-488b-aa96-856d31d94527")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 60.96 102.87 270)
 		(mirror x)
 		(unit 1)
@@ -3464,6 +3856,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 60.96 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 60.96 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "be066feb-5995-429b-894f-f3650b84b0ab")
 		)
@@ -3474,6 +3910,141 @@
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 88.9 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc7cc610-2b76-4ba5-88be-6b3d48622b1c")
+		(property "Reference" "R19"
+			(at 77.47 84.328 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 77.47 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 77.47 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/TR0603MR-07100RL?qs=sGAEpiMZZMvdGkrng054t7hACl%252BKjm7Mu6Zvq%2FxQBmngQeA8SnN0%252BA%3D%3D"
+			(at 77.47 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 77.47 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 77.47 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 77.47 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1776d282-a824-415b-850b-dc0abcc293df")
+		)
+		(pin "1"
+			(uuid "b80bfd6d-df6e-4583-a599-c21efcbf0a02")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3544,6 +4115,50 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Draloric/RCS0603330RJNEA?qs=sGAEpiMZZMvdGkrng054twq3eZrCFN89zmjJuuDk1T9KKHDdoTP8PA%3D%3D "
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 41.91 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -3669,6 +4284,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 163.83 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "aa758d35-87d0-4ed3-9235-9a7cc74d4beb")
 		)
@@ -3760,6 +4419,50 @@
 				)
 			)
 		)
+		(property "Author" ""
+			(at 181.61 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 181.61 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 181.61 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d3d1ac6-837d-4cde-845e-8abae4e4a6a5")
 		)
@@ -3770,6 +4473,141 @@
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 81.28 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff0de80f-9450-4d58-80bc-2f75cb87dce6")
+		(property "Reference" "R18"
+			(at 77.47 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 77.47 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 77.47 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/508/1/PYu-TR_0-30_RoHS_L_1.pdf"
+			(at 77.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/YAGEO/TR0603MR-07100RL?qs=sGAEpiMZZMvdGkrng054t7hACl%252BKjm7Mu6Zvq%2FxQBmngQeA8SnN0%252BA%3D%3D"
+			(at 77.47 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" ""
+			(at 77.47 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "License" ""
+			(at 77.47 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 77.47 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 77.47 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff1ecc31-ac79-4997-875f-d454e13a48d6")
+		)
+		(pin "1"
+			(uuid "502d155f-b5ca-4fe1-a468-69e43286a59e")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
+					(reference "R18")
 					(unit 1)
 				)
 			)

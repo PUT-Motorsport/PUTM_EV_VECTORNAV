@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -84,7 +84,20 @@
 		(pad_to_mask_clearance 0.038)
 		(solder_mask_min_width 0.08)
 		(allow_soldermask_bridges_in_footprints yes)
-		(tenting front back)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
 		(aux_axis_origin 116 116)
 		(grid_origin 116 116)
 		(pcbplotparams
@@ -95,15 +108,12 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
-			(hpglpennumber 1)
-			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -128,7 +138,6 @@
 		)
 	)
 	(property "REVISION" "1.0")
-	(net 0 "")
 	(footprint "MountingHole:MountingHole_3mm_Pad_Via"
 		(layer "F.Cu")
 		(uuid "578773fc-b43e-4909-9c01-16b9a62a23ea")
@@ -183,6 +192,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 3 0)
@@ -344,6 +354,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 3 0)
@@ -505,6 +516,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 3 0)
@@ -666,6 +678,7 @@
 			)
 		)
 		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
 			(end 3 0)
@@ -773,15 +786,16 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_line
-		(start 118 76)
-		(end 174 76)
+	(gr_arc
+		(start 116 78)
+		(mid 116.585786 76.585786)
+		(end 118 76)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "50e7a8dd-5b81-42b0-bc4d-1c239393e377")
+		(uuid "9cc31778-6423-4cbe-bcbc-03231a025423")
 	)
 	(gr_line
 		(start 116 114)
@@ -794,14 +808,14 @@
 		(uuid "7076a365-15a5-4f02-8113-f4f7c5c19ef6")
 	)
 	(gr_line
-		(start 176 78)
-		(end 176 114)
+		(start 118 76)
+		(end 174 76)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "7405ac2d-f94f-409f-a806-dbfe1795118f")
+		(uuid "50e7a8dd-5b81-42b0-bc4d-1c239393e377")
 	)
 	(gr_arc
 		(start 118 116)
@@ -815,26 +829,15 @@
 		(uuid "8663cfb5-2f6c-4f17-9b4d-8841e00a8798")
 	)
 	(gr_arc
-		(start 176 114)
-		(mid 175.414214 115.414214)
-		(end 174 116)
+		(start 174 76)
+		(mid 175.414214 76.585786)
+		(end 176 78)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "882a2a21-1b40-4146-a7e0-dd53183c14e5")
-	)
-	(gr_arc
-		(start 116 78)
-		(mid 116.585786 76.585786)
-		(end 118 76)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "9cc31778-6423-4cbe-bcbc-03231a025423")
+		(uuid "cacf977d-3987-4730-9f9e-ebaf1e9fd86c")
 	)
 	(gr_line
 		(start 174 116)
@@ -846,16 +849,38 @@
 		(layer "Edge.Cuts")
 		(uuid "c8564518-fb31-44e3-bd09-9ffac4829823")
 	)
-	(gr_arc
-		(start 174 76)
-		(mid 175.414214 76.585786)
-		(end 176 78)
+	(gr_line
+		(start 176 78)
+		(end 176 114)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "cacf977d-3987-4730-9f9e-ebaf1e9fd86c")
+		(uuid "7405ac2d-f94f-409f-a806-dbfe1795118f")
+	)
+	(gr_arc
+		(start 176 114)
+		(mid 175.414214 115.414214)
+		(end 174 116)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "882a2a21-1b40-4146-a7e0-dd53183c14e5")
+	)
+	(gr_text "v${REVISION}"
+		(at 146 114 0)
+		(layer "F.SilkS")
+		(uuid "7aec6c76-b5f7-446f-9417-fb725641127b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
 	)
 	(gr_text "Template"
 		(at 146 112 0)
@@ -866,18 +891,6 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(gr_text "v${REVISION}"
-		(at 146 114 0)
-		(layer "F.SilkS")
-		(uuid "7aec6c76-b5f7-446f-9417-fb725641127b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 			(justify bottom)
 		)
