@@ -4284,7 +4284,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+24V_EXT"
 			(at 52.07 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
