@@ -1,30 +1,248 @@
-(module "CAPC4620X165N" (layer F.Cu)
-  (descr "SIZE CODE 1808")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC4620X165N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.795 -1.28) (end 2.795 -1.28) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.795 -1.28) (end 2.795 1.28) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.795 1.28) (end -2.795 1.28) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.795 1.28) (end -2.795 -1.28) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.285 -1.015) (end 2.285 -1.015) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.285 -1.015) (end 2.285 1.015) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.285 1.015) (end -2.285 1.015) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.285 1.015) (end -2.285 -1.015) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.915) (end 0 0.915) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -2.01 0 0) (size 1.27 2.26) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.01 0 0) (size 1.27 2.26) (layers F.Cu F.Paste F.Mask))
-  (model LS1808N151K302NTM.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAPC4620X165N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SIZE CODE 1808")
+	(tags "Capacitor")
+	(property "Reference" "C20"
+		(at -2.07 -2 180)
+		(layer "F.SilkS")
+		(uuid "09e367d4-9fc7-46ed-b259-dd8fd7deb252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "150pF X2/Y3"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e72591b3-ee84-4975-b7db-f5c61656f038")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/catalog/specsheets/novacap%20inc._aps.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63d609fe-e11a-4b9a-8edd-62ac58d89494")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99ee050e-74cb-4ed2-81db-376011034102")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Mouser" "https://www.mouser.pl/ProductDetail/Knowles-Novacap/LS1808N151K302NTM?qs=y51br41LWOe2MRHVRjGFWQ%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01a75b21-06d4-4446-8ae5-881fdd38a83a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Author" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "404b02fb-3a8a-43d7-ac38-4709219854d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "License" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a68cd654-a44f-45cc-84a9-2aed16dff20d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "927e7a68-c4f9-4498-8372-c94d1acf33f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2396333-8868-4da0-b9ea-a2d78c7e5410")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "C_*")
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.915)
+		(end 0 0.915)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86115995-58de-4fa4-b7bd-d1d9a749652f")
+	)
+	(fp_line
+		(start -2.795 -1.28)
+		(end 2.795 -1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8cce75fc-eb68-4d7b-9b7d-a599557cfab2")
+	)
+	(fp_line
+		(start -2.795 1.28)
+		(end -2.795 -1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "478fe8c4-5962-4ea8-857c-689d3940139e")
+	)
+	(fp_line
+		(start 2.795 -1.28)
+		(end 2.795 1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "adc26cf4-8a79-49f1-87d7-379efe9c83ca")
+	)
+	(fp_line
+		(start 2.795 1.28)
+		(end -2.795 1.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63e46b9d-0ea6-4056-9d38-c5b2c1df2055")
+	)
+	(fp_line
+		(start -2.285 -1.015)
+		(end 2.285 -1.015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af9f7bce-aaec-4071-bcce-cd707652bdef")
+	)
+	(fp_line
+		(start -2.285 1.015)
+		(end -2.285 -1.015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d8d5aa1-d897-4047-9972-349f8e10c3f1")
+	)
+	(fp_line
+		(start 2.285 -1.015)
+		(end 2.285 1.015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca68f0dc-b157-4598-b288-1e0e7864019f")
+	)
+	(fp_line
+		(start 2.285 1.015)
+		(end -2.285 1.015)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e279ee5c-3c3f-4c3e-815c-c16641abff46")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "5d21333a-325b-455e-be85-9c5caf342702")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.01 0)
+		(size 1.27 2.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78670062-b63b-47b0-9157-9b2f8c097c6c")
+	)
+	(pad "2" smd rect
+		(at 2.01 0)
+		(size 1.27 2.26)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b92b6f01-a0c5-4bf1-8cf8-52f507370bda")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D_models/150pFCaps/LS1808N151K302NTM.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

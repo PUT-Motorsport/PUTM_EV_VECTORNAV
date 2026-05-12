@@ -1802,29 +1802,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "PS"
-				(at 26.67 7.62 0)
+			(property "Reference" "U8"
+				(at 15.24 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "SI06W8-05"
-				(at 26.67 5.08 0)
+				(at 15.24 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Footprint" "SI06W805"
+			(property "Footprint" "DCisoconv:SI06W805"
 				(at 26.67 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1859,19 +1857,7 @@
 					)
 				)
 			)
-			(property "Height" "10.7"
-				(at 26.67 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
+			(property "Mouser Part Number" "https://www.mouser.pl/ProductDetail/MEAN-WELL/SI06W8-05?qs=ST9lo4GX8V3OoQwDIibogw%3D%3D"
 				(at 26.67 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1883,8 +1869,8 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" ""
-				(at 26.67 -594.92 0)
+			(property "Author" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1892,11 +1878,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Mean Well"
-				(at 26.67 -694.92 0)
+			(property "License" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1904,11 +1889,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SI06W8-05"
-				(at 26.67 -794.92 0)
+			(property "MPN" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1916,7 +1900,28 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "https://www.mouser.pl/ProductDetail/MEAN-WELL/SI06W8-05?qs=ST9lo4GX8V3OoQwDIibogw%3D%3D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "SI06W8-05_1_1"
@@ -3642,6 +3647,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 149.86 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.86 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4402f42a-9bf0-4e6c-8be7-2f617fbcc536")
 		)
@@ -3854,6 +3881,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 114.3 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c564ece-67c0-4c9a-9d89-fbc153d114d2")
 		)
@@ -3980,6 +4029,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 91.44 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 91.44 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 91.44 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -4157,6 +4228,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 82.55 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 82.55 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 82.55 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4450,6 +4543,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 220.98 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 220.98 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 220.98 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4827,6 +4942,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 149.86 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 149.86 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee4a5ffa-f8e5-49c5-a370-d7abbacede4f")
 		)
@@ -4975,6 +5112,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 246.38 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 246.38 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf9909b5-900e-46b6-9fd6-e513e15da43e")
 		)
@@ -5058,50 +5217,6 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Littelfuse/SMF26CA?qs=sGAEpiMZZMsItbzKdwyIe6ftNyuRnfKpG8NmTzdGi9lk%2FXUPYJLavQ%3D%3D"
-			(at 66.04 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 66.04 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 66.04 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 66.04 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
 			(at 66.04 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -5405,6 +5520,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 173.99 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8541ba9-c163-4524-bbd1-348f7f11c9f5")
 		)
@@ -5530,6 +5667,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 246.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 246.38 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5667,6 +5826,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5892,6 +6073,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 105.41 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3a459e5-9b18-479e-875d-5730871eb3a1")
 		)
@@ -6018,7 +6221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SI06W805"
+		(property "Footprint" "DCisoconv:SI06W805"
 			(at 161.29 190.17 0)
 			(hide yes)
 			(show_name no)
@@ -6110,6 +6313,28 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/MEAN-WELL/SI06W8-05?qs=ST9lo4GX8V3OoQwDIibogw%3D%3D"
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 134.62 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6262,6 +6487,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 123.19 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 123.19 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3496bef6-3889-4c54-a1e5-3b9f269195cc")
 		)
@@ -6387,6 +6634,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 210.82 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 210.82 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6535,6 +6804,28 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 82.55 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 82.55 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1845876f-5a4d-4a92-aa13-da3f25d0c986")
 		)
@@ -6660,6 +6951,28 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 58.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 58.42 82.55 0)
 			(hide yes)
 			(show_name no)
