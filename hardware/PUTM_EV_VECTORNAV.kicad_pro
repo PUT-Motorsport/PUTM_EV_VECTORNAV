@@ -105,7 +105,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "error",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -200,6 +200,7 @@
         0.0,
         0.15,
         0.2,
+        0.3,
         0.4,
         0.6,
         0.8

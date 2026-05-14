@@ -7440,6 +7440,16 @@
 		)
 		(uuid "ff801e3c-7d4c-4390-afae-436c3fe3588b")
 	)
+	(label "PROG_SWCLK"
+		(at 261.62 135.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "050c4bcf-f867-4c8d-b990-ccfa444a8833")
+	)
 	(label "ISO_RX"
 		(at 107.95 86.36 0)
 		(effects
@@ -7490,7 +7500,7 @@
 		)
 		(uuid "26637e2b-ef61-4ec4-b67b-99f8487d227f")
 	)
-	(label "USB_RST"
+	(label "usbRST"
 		(at 87.63 152.4 180)
 		(effects
 			(font
@@ -7550,16 +7560,6 @@
 		)
 		(uuid "45957da4-a007-460a-84da-590aaa8a2064")
 	)
-	(label "PROG_SWCLK"
-		(at 264.16 135.89 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "487540cf-d61c-4ffb-9d5d-cdcce903f0f4")
-	)
 	(label "PROG_RX"
 		(at 220.98 110.49 0)
 		(effects
@@ -7570,7 +7570,7 @@
 		)
 		(uuid "586539d0-af08-4f0d-a368-4f48f8267656")
 	)
-	(label "USB_RST"
+	(label "usbRST"
 		(at 33.02 121.92 0)
 		(effects
 			(font
@@ -7589,16 +7589,6 @@
 			(justify right bottom)
 		)
 		(uuid "6a4ed67f-8da3-46f8-b05a-f77997e62551")
-	)
-	(label "PROG_SWDIO"
-		(at 261.62 135.89 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74b80b70-6f08-431b-a988-2d153a1e6349")
 	)
 	(label "d-"
 		(at 43.18 111.76 0)
@@ -7619,6 +7609,16 @@
 			(justify right bottom)
 		)
 		(uuid "85a5f35d-8a0e-4ec1-a71e-780a8d12ad68")
+	)
+	(label "PROG_SWDIO"
+		(at 264.16 135.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90eae4ff-c429-4e0b-8b93-0031eb1c29b3")
 	)
 	(label "CAN-"
 		(at 274.32 22.86 0)
@@ -16678,7 +16678,6 @@
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
 		(at 165.1 146.05 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16708,7 +16707,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 168.91 146.05 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16719,7 +16718,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-sts232xxxbxxx-tvs-diode-array-esd-suppressor-data-sheet.pdf"
-			(at 168.91 146.05 0)
+			(at 161.29 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

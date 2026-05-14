@@ -24,4 +24,5 @@
 	(lib (name "BatteryHolder") (type "KiCad") (uri "${KIPRJMOD}/Footprints/BatteryHolder.pretty") (options "") (descr ""))
 	(lib (name "StrainRelief") (type "KiCad") (uri "${KIPRJMOD}/Footprints/StrainRelief.pretty") (options "") (descr ""))
 	(lib (name "OptoCoupler") (type "KiCad") (uri "${KIPRJMOD}/Footprints/OptoCoupler.pretty") (options "") (descr ""))
+	(lib (name "5VLDO3V3") (type "KiCad") (uri "${KIPRJMOD}/Footprints/5VLDO3V3.pretty") (options "") (descr ""))
 )

@@ -2111,7 +2111,7 @@
 		)
 		(uuid "769ed0d5-1b41-4c34-b1d5-a7e61efb7616")
 	)
-	(label "VN_SCK"
+	(label "vnSCK"
 		(at 171.45 90.17 180)
 		(effects
 			(font
@@ -2121,7 +2121,7 @@
 		)
 		(uuid "7bb9d674-1c66-43d9-b4e5-dbe98e6d5d55")
 	)
-	(label "VN_CS"
+	(label "vnCS"
 		(at 203.2 83.82 0)
 		(effects
 			(font
@@ -2141,7 +2141,7 @@
 		)
 		(uuid "84e16b5d-ded1-4437-8517-00373db18956")
 	)
-	(label "VN_MOSI"
+	(label "vnMOSI"
 		(at 203.2 96.52 0)
 		(effects
 			(font
@@ -2151,7 +2151,7 @@
 		)
 		(uuid "8656ebf3-50ee-4aa5-a44d-a8b5242c6287")
 	)
-	(label "VN_CS"
+	(label "vnCS"
 		(at 171.45 87.63 180)
 		(effects
 			(font
@@ -2161,7 +2161,7 @@
 		)
 		(uuid "9f676d47-4b74-4d54-9bc5-39e98eaf4e44")
 	)
-	(label "VN_SCK"
+	(label "vnSCK"
 		(at 203.2 90.17 0)
 		(effects
 			(font
@@ -2181,7 +2181,7 @@
 		)
 		(uuid "b31c64f3-0805-4cfd-8d4f-3cfb198bc9d3")
 	)
-	(label "VN_MOSI"
+	(label "vnMOSI"
 		(at 171.45 95.25 180)
 		(effects
 			(font
