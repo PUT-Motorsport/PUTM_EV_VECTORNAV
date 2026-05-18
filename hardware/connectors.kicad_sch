@@ -7560,6 +7560,16 @@
 		)
 		(uuid "45957da4-a007-460a-84da-590aaa8a2064")
 	)
+	(label "RF2"
+		(at 151.0981 44.45 0)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+			(justify left bottom)
+		)
+		(uuid "45f29efa-5609-4de8-a1e1-75974b36d16d")
+	)
 	(label "PROG_RX"
 		(at 220.98 110.49 0)
 		(effects
@@ -7789,6 +7799,16 @@
 			(justify left bottom)
 		)
 		(uuid "eebd2b0e-d1c6-436c-afa8-471a1dbd8564")
+	)
+	(label "RF1"
+		(at 151.13 26.67 0)
+		(effects
+			(font
+				(size 0.381 0.381)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef2a527d-dde1-4729-a229-79025db41b53")
 	)
 	(label "d-"
 		(at 57.15 53.34 0)
