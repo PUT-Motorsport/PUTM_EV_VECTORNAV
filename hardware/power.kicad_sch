@@ -2836,6 +2836,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 95.25) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d664ea-25a8-44ef-a378-c60576f08e38")
+	)
+	(wire
+		(pts
 			(xy 168.91 97.79) (xy 168.91 102.87)
 		)
 		(stroke
@@ -2977,16 +2987,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 134.62 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65d08692-f0ac-40c1-b604-0fad642a458e")
-	)
-	(wire
-		(pts
 			(xy 123.19 107.95) (xy 133.35 107.95)
 		)
 		(stroke
@@ -3096,6 +3096,16 @@
 			(color 194 0 0 1)
 		)
 		(uuid "9216aaff-a320-4a1b-a7c8-c74119776a4a")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b51ebd-c4c4-47cf-b80a-af5db213b86f")
 	)
 	(wire
 		(pts
@@ -3358,16 +3368,6 @@
 			(type default)
 		)
 		(uuid "e6a92f37-7139-409a-881c-f39e549bbe50")
-	)
-	(wire
-		(pts
-			(xy 165.1 95.25) (xy 168.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e741fbbe-78da-4405-badf-3b0097f7d72e")
 	)
 	(wire
 		(pts
@@ -6191,7 +6191,8 @@
 	)
 	(symbol
 		(lib_id "SI06W8-05:SI06W8-05")
-		(at 134.62 95.25 0)
+		(at 134.62 97.79 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6199,10 +6200,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ca432507-2844-42e3-abfe-d6af426c5db9")
 		(property "Reference" "U8"
-			(at 149.86 87.63 0)
+			(at 153.924 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6212,7 +6212,7 @@
 			)
 		)
 		(property "Value" "SI06W8-05"
-			(at 149.86 90.17 0)
+			(at 156.464 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6222,7 +6222,7 @@
 			)
 		)
 		(property "Footprint" "DCisoconv:SI06W805"
-			(at 161.29 190.17 0)
+			(at 161.29 2.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,7 +6234,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.meanwell.com/upload/pdf/DI06W8/SI06W8,DI06W8-spec.pdf"
-			(at 161.29 290.17 0)
+			(at 161.29 -97.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,63 +6246,7 @@
 			)
 		)
 		(property "Description" "Isolated DC/DC Converters - Through Hole 6W 9-75Vin 5V 0-1200mA 1x1 Regulated DIP"
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "https://www.mouser.pl/ProductDetail/MEAN-WELL/SI06W8-05?qs=ST9lo4GX8V3OoQwDIibogw%3D%3D"
-			(at 161.29 590.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Author" ""
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 134.62 95.25 0)
+			(at 134.62 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,29 +6257,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/MEAN-WELL/SI06W8-05?qs=ST9lo4GX8V3OoQwDIibogw%3D%3D"
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 134.62 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 134.62 95.25 0)
+			(at 134.62 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

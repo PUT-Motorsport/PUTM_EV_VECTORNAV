@@ -11646,6 +11646,7 @@
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
 		(at 265.43 27.94 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11675,7 +11676,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 261.62 27.94 0)
+			(at 269.24 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11686,7 +11687,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/225/1/ESD27VT2BHE3_SOT_23.pdf"
-			(at 261.62 27.94 0)
+			(at 269.24 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
