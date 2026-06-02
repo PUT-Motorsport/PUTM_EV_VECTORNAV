@@ -1685,6 +1685,12 @@
 		(uuid "4c379917-3a9b-4c2a-98b4-6093a3cb4b07")
 	)
 	(junction
+		(at 82.55 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50f67c85-8eeb-41ce-a6ae-d6b1c9bcb79e")
+	)
+	(junction
 		(at 100.33 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1719,12 +1725,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c31fcd42-f5a5-484c-8f96-b19ac8ffc24a")
-	)
-	(junction
-		(at 82.55 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9475140-4d6f-4ae9-bb0f-4ee522b94ad3")
 	)
 	(junction
 		(at 74.93 113.03)
@@ -1782,6 +1782,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 113.03) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c07f10-d9a8-4c8f-a966-fa61ac47b834")
+	)
+	(wire
+		(pts
 			(xy 123.19 113.03) (xy 123.19 111.76)
 		)
 		(stroke
@@ -1802,7 +1812,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 129.54) (xy 82.55 132.08)
+			(xy 128.27 125.73) (xy 130.81 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1892,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 82.55 121.92)
+			(xy 74.93 125.73) (xy 82.55 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1970,6 +1980,17 @@
 		)
 		(uuid "3ee51775-3b7c-4d0b-83e0-14a207380a7d")
 	)
+	(polyline
+		(pts
+			(xy 126.238 127.762) (xy 126.238 199.898)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "402b5947-698d-4c04-96b9-59d75dafe371")
+	)
 	(wire
 		(pts
 			(xy 137.16 57.15) (xy 143.51 57.15)
@@ -1992,10 +2013,10 @@
 	)
 	(polyline
 		(pts
-			(xy 126.238 12.192) (xy 126.238 197.866)
+			(xy 126.238 12.192) (xy 126.238 123.698)
 		)
 		(stroke
-			(width 0.381)
+			(width 0.127)
 			(type solid)
 			(color 194 0 0 1)
 		)
@@ -2131,6 +2152,17 @@
 		)
 		(uuid "870096f0-793b-4a10-9e0a-7c1c7c43aedc")
 	)
+	(polyline
+		(pts
+			(xy 125.222 127.762) (xy 125.222 199.898)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+			(color 194 0 0 1)
+		)
+		(uuid "8d2cb39b-f307-4a44-877d-a6c34173f83f")
+	)
 	(wire
 		(pts
 			(xy 171.45 45.72) (xy 171.45 57.15)
@@ -2153,16 +2185,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 124.46) (xy 82.55 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cce332b-63d5-4946-86c8-c30347474b67")
-	)
-	(wire
-		(pts
 			(xy 140.97 93.98) (xy 148.59 93.98)
 		)
 		(stroke
@@ -2180,16 +2202,6 @@
 			(type default)
 		)
 		(uuid "b2667845-44a6-47e1-aea0-e7fa540eaaf0")
-	)
-	(wire
-		(pts
-			(xy 82.55 113.03) (xy 82.55 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b37e545b-e210-4b1d-b2d7-28dd0ccaa8b1")
 	)
 	(wire
 		(pts
@@ -2313,6 +2325,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 125.73) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db86da8e-43ff-4284-ba2c-b8bced9298d4")
+	)
+	(wire
+		(pts
 			(xy 93.98 100.33) (xy 100.33 100.33)
 		)
 		(stroke
@@ -2383,10 +2405,10 @@
 	)
 	(polyline
 		(pts
-			(xy 125.222 12.192) (xy 125.222 197.866)
+			(xy 125.222 12.192) (xy 125.222 123.698)
 		)
 		(stroke
-			(width 0.381)
+			(width 0.127)
 			(type solid)
 			(color 194 0 0 1)
 		)
@@ -2436,7 +2458,7 @@
 	)
 	(hierarchical_label "GND_CAN_ISO"
 		(shape bidirectional)
-		(at 74.93 121.92 180)
+		(at 74.93 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3261,7 +3283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 132.08 0)
+		(at 130.81 125.73 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3271,7 +3293,7 @@
 		(dnp no)
 		(uuid "2b1a1c5a-d478-4144-8ce4-ffe88448f9ff")
 		(property "Reference" "#PWR055"
-			(at 82.55 138.43 0)
+			(at 137.16 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,7 +3304,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 134.62 0)
+			(at 133.35 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3292,7 +3314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 132.08 0)
+			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3303,7 +3325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 132.08 0)
+			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3314,7 +3336,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 132.08 0)
+			(at 130.81 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5668,7 +5690,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 82.55 127 180)
+		(at 125.73 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5678,7 +5700,7 @@
 		(dnp no)
 		(uuid "de9a7a9e-c097-4397-9bd7-04e76386d203")
 		(property "Reference" "C11"
-			(at 84.328 125.984 0)
+			(at 123.952 121.666 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5689,7 +5711,7 @@
 			)
 		)
 		(property "Value" "4.7nF/Y2"
-			(at 84.328 127.762 0)
+			(at 135.89 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5700,7 +5722,7 @@
 			)
 		)
 		(property "Footprint" "samacsys:CAPC5728X280N"
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/WATC/WATC-S-A0011771687/WATC-S-A0011771687-1.pdf?hkey=CECEF36DEECDED6468708AAF2E19C0C6"
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5722,7 +5744,7 @@
 			)
 		)
 		(property "Description" "Safety Capacitors 2211 MLCC X7R 2200 pF , \\'+/- 10% 5K V T&R SAF"
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +5755,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Walsin/S252B222K502CT?qs=wUXugUrL1qx2Bha0j7hz5g%3D%3D"
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +5766,7 @@
 			)
 		)
 		(property "Mouser No" "791-S252B222K502CT"
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,7 +5777,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,7 +5788,7 @@
 			)
 		)
 		(property "Author" ""
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,7 +5799,7 @@
 			)
 		)
 		(property "License" ""
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5788,7 +5810,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +5821,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,7 +5832,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,7 +5843,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 82.55 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -4479,6 +4479,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay_SolidState:AQY284S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5498,6 +5621,18 @@
 		(uuid "cf0f3edf-0908-4884-9775-f4daebac7117")
 	)
 	(rectangle
+		(start 182.626 43.18)
+		(end 214.122 68.834)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d826622f-95be-4fc5-9beb-79fbddf19e99")
+	)
+	(rectangle
 		(start 131.318 100.076)
 		(end 199.136 165.608)
 		(stroke
@@ -5568,6 +5703,16 @@
 			)
 		)
 		(uuid "abe389c7-b8fe-4cc6-97dc-f14fd823e58d")
+	)
+	(text "Mounting\nHoles"
+		(exclude_from_sim no)
+		(at 192.786 62.992 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "dab421a0-9df9-414d-a89d-b2c22acbe044")
 	)
 	(text "Programmer connection"
 		(exclude_from_sim no)
@@ -5764,12 +5909,20 @@
 		(uuid "97b1b0ec-b93b-4a8a-8113-452cf09b8293")
 	)
 	(no_connect
+		(at 187.96 52.07)
+		(uuid "a90da07c-3c3b-46c8-84c2-89b682349187")
+	)
+	(no_connect
 		(at 77.47 107.95)
 		(uuid "c7af00cc-ae74-4c03-87ba-4310a77f0ec7")
 	)
 	(no_connect
 		(at 77.47 120.65)
 		(uuid "c9f2f518-397e-46e9-b857-b5e27e63ae84")
+	)
+	(no_connect
+		(at 207.01 52.07)
+		(uuid "cd54a803-917f-44be-be88-1c525ebd1907")
 	)
 	(no_connect
 		(at 77.47 105.41)
@@ -5786,6 +5939,10 @@
 	(no_connect
 		(at 77.47 128.27)
 		(uuid "e36f8508-c350-4d4f-a53d-ea76badae339")
+	)
+	(no_connect
+		(at 198.12 52.07)
+		(uuid "ea63c49f-870f-43f8-8f5a-1ff67d1c4443")
 	)
 	(no_connect
 		(at 176.53 123.19)
@@ -7422,6 +7579,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 60.96) (xy 207.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc85d36c-0681-483e-a90d-130b2904ec54")
+	)
+	(wire
+		(pts
 			(xy 163.83 80.01) (xy 163.83 82.55)
 		)
 		(stroke
@@ -7440,7 +7607,7 @@
 		)
 		(uuid "ff801e3c-7d4c-4390-afae-436c3fe3588b")
 	)
-	(label "PROG_SWCLK"
+	(label "PROG_SWDIO"
 		(at 261.62 135.89 90)
 		(effects
 			(font
@@ -7448,7 +7615,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "050c4bcf-f867-4c8d-b990-ccfa444a8833")
+		(uuid "0ef61850-01eb-4413-bad1-c5d0bed29bed")
 	)
 	(label "ISO_RX"
 		(at 107.95 86.36 0)
@@ -7580,6 +7747,16 @@
 		)
 		(uuid "586539d0-af08-4f0d-a368-4f48f8267656")
 	)
+	(label "D+"
+		(at 74.93 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "61e3c2f3-0c13-4627-a856-c0798144b109")
+	)
 	(label "usbRST"
 		(at 33.02 121.92 0)
 		(effects
@@ -7620,15 +7797,15 @@
 		)
 		(uuid "85a5f35d-8a0e-4ec1-a71e-780a8d12ad68")
 	)
-	(label "PROG_SWDIO"
-		(at 264.16 135.89 90)
+	(label "D-"
+		(at 57.15 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "90eae4ff-c429-4e0b-8b93-0031eb1c29b3")
+		(uuid "8f553d9a-7624-4095-b844-852b7a1a58bf")
 	)
 	(label "CAN-"
 		(at 274.32 22.86 0)
@@ -7760,16 +7937,6 @@
 		)
 		(uuid "cc702dc9-c0a3-487c-bb09-3f4d90ee5d54")
 	)
-	(label "d+"
-		(at 74.93 53.34 180)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify right bottom)
-		)
-		(uuid "cec24c52-53ba-4981-a537-4dda8ec1a3e3")
-	)
 	(label "RXLED"
 		(at 85.09 125.73 180)
 		(effects
@@ -7790,6 +7957,16 @@
 		)
 		(uuid "dac8213c-445b-4214-9c97-2d40bff00ff3")
 	)
+	(label "PROG_SWCLK"
+		(at 264.16 135.89 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3df4e62-473c-4728-932a-89a50f8e936a")
+	)
 	(label "CAN+"
 		(at 222.25 27.94 0)
 		(effects
@@ -7809,16 +7986,6 @@
 			(justify left bottom)
 		)
 		(uuid "ef2a527d-dde1-4729-a229-79025db41b53")
-	)
-	(label "d-"
-		(at 57.15 53.34 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left bottom)
-		)
-		(uuid "f091925a-e3c1-42f3-a007-ca7cc8282fbf")
 	)
 	(hierarchical_label "XIAO_TX"
 		(shape output)
@@ -10168,6 +10335,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 207.01 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49edec2c-dc9e-4986-afa2-dce282768f07")
+		(property "Reference" "#PWR019"
+			(at 207.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_EXT"
+			(at 207.01 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6066d522-b1c3-48e0-aee4-8ecef26a7c5f")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 62.23 168.91 0)
 		(unit 1)
 		(body_style 1)
@@ -10956,6 +11200,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 207.01 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e5c5b13-1f98-4e91-b327-ae0ec0105200")
+		(property "Reference" "H4"
+			(at 209.55 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 209.55 58.4199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 207.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "---"
+			(at 207.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 207.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 207.01 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "251541fc-6937-40ae-8108-a618d8e2d0a3")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Conn_01x02_1")
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 190.5 31.75 180)
@@ -11646,7 +11981,6 @@
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
 		(at 265.43 27.94 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11676,7 +12010,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 269.24 27.94 0)
+			(at 261.62 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11687,7 +12021,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/datasheet/3/225/1/ESD27VT2BHE3_SOT_23.pdf"
-			(at 269.24 27.94 0)
+			(at 261.62 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13163,6 +13497,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 198.12 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97cd13af-2af7-4ec7-ab75-4697994895af")
+		(property "Reference" "H2"
+			(at 200.66 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 200.66 49.5299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 198.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "---"
+			(at 198.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 198.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 198.12 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c178de7-7673-428f-a851-f4369651dabd")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 156.21 0)
 		(unit 1)
@@ -13473,6 +13898,97 @@
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 187.96 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f8b407-2594-4e6a-9904-76ec6d125f45")
+		(property "Reference" "H1"
+			(at 190.5 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 190.5 49.5299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "---"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6686b8e7-0798-46f7-bdba-3a17670faaa7")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -13956,6 +14472,97 @@
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 207.01 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba5743da-96d1-4349-a8cf-3499ff7ecfcf")
+		(property "Reference" "H3"
+			(at 209.55 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 209.55 49.5299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad_Via"
+			(at 207.01 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "---"
+			(at 207.01 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 207.01 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 207.01 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac2d0243-2659-4749-8d77-8e551b2cafd2")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/6d4fa95d-6eac-4f5c-ae0c-9d298307e9b2"
+					(reference "H3")
 					(unit 1)
 				)
 			)
