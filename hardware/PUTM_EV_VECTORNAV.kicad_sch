@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(rev "${REVISION}")
-		(company "Author:")
-		(comment 1 "Reviewer:")
+		(company "Author: Kacper Pawlak")
+		(comment 1 "Reviewer: Piotr Lesicki")
 	)
 	(lib_symbols)
 	(wire

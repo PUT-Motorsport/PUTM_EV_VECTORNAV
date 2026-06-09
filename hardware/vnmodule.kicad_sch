@@ -5,7 +5,8 @@
 	(uuid "b267172d-6f9c-4f87-b657-cabec34639d8")
 	(paper "A4")
 	(title_block
-		(company "Author:")
+		(company "Author: Kacper Pawlak")
+		(comment 1 "Reviewer: Piotr Lesicki")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -338,6 +339,162 @@
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1943,6 +2100,12 @@
 		(uuid "42214553-5f57-499a-999e-f16c994b26aa")
 	)
 	(junction
+		(at 125.73 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d969691-6193-476e-aebf-8200c4c61ff9")
+	)
+	(junction
 		(at 120.65 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2032,6 +2195,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 64.77) (xy 133.35 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1779ab53-daa7-433b-924a-00d27624446b")
+	)
+	(wire
+		(pts
 			(xy 81.28 81.28) (xy 100.33 81.28)
 		)
 		(stroke
@@ -2089,6 +2262,16 @@
 			(type default)
 		)
 		(uuid "2e419e53-f32b-4409-bdd3-7dddb6d40ea6")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eaca4cb-159d-4972-875e-5b86fdf2d5a6")
 	)
 	(wire
 		(pts
@@ -2262,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 60.96) (xy 125.73 67.31)
+			(xy 125.73 60.96) (xy 125.73 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2279,6 +2462,16 @@
 			(type default)
 		)
 		(uuid "88839eb5-e614-4629-87e5-45c2acfcd272")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 128.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea485d9-4f29-46bf-b812-228373c64a74")
 	)
 	(wire
 		(pts
@@ -2329,6 +2522,16 @@
 			(type default)
 		)
 		(uuid "a0651b32-8f0c-428f-9488-b3652eade974")
+	)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f810a2-4e76-4271-bed2-7552db7ab8f8")
 	)
 	(wire
 		(pts
@@ -2893,6 +3096,83 @@
 			(project "PUTM_EV_VECTORNAV"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19eb8cda-20fa-4599-b082-682114696d7d")
+		(property "Reference" "#PWR062"
+			(at 134.62 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c907001-b578-4290-b616-82e64127af02")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3686,6 +3966,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 130.81 64.77 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e3c937e-ff42-4f62-ad14-17cebc230c28")
+		(property "Reference" "C26"
+			(at 129.032 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 129.286 61.976 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/72/1/C0603C105K4RACTU.pdf"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C105K4RACTU?qs=STjISULpmtZNMAZGR4X39Q%3D%3D"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "80-C0603C105K4R"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 130.81 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "358b8692-58e6-457d-9880-75d8e41a2b8a")
+		)
+		(pin "2"
+			(uuid "fda1e0f0-f8c1-4935-acf8-9f5e0bec0f55")
+		)
+		(instances
+			(project "PUTM_EV_VECTORNAV"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/bf976c36-ccda-4628-98c9-d97141c7ed5e"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "vn300:VN-300")
 		(at 125.73 95.25 0)
 		(unit 1)
@@ -3695,10 +4090,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "84b76337-fed8-45da-9ee1-112b96540fbb")
 		(property "Reference" "U1"
-			(at 128.0479 69.85 0)
+			(at 108.458 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

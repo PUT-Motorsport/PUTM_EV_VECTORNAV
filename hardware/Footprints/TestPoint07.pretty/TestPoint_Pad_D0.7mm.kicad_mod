@@ -1,0 +1,100 @@
+(footprint "TestPoint_Pad_D1.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD pad as test Point, diameter 1.0mm")
+	(tags "test point SMD pad")
+	(property "Reference" "TP11"
+		(at 0 -1.448 0)
+		(layer "F.SilkS")
+		(uuid "8c0cbacb-d47b-4ca2-b286-2eadab4075a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D-"
+		(at 0 1.55 0)
+		(layer "F.Fab")
+		(uuid "3c35c054-1917-46a3-aef8-cd2a05f5a8ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8308bdcf-9367-4290-87ef-bc9671d476e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f00981e-9a86-44b8-8e31-9d5cbff4151a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Pin* Test*")
+	(sheetname "/Connectors/")
+	(sheetfile "connectors.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 0.45 0)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1ca604e1-a372-4dff-aec4-585545b0d6b9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5b6e551c-055e-49ae-9066-f8dc391c26f9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.45 0)
+		(layer "F.Fab")
+		(uuid "703eb2d8-34d0-47e8-99b7-7cd43ebfbcd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.7 0.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "cf3d8351-ee84-49ad-bb90-4752027d8783")
+	)
+	(embedded_fonts no)
+)

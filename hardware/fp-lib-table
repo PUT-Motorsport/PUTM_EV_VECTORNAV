@@ -27,4 +27,5 @@
 	(lib (name "inductor") (type "KiCad") (uri "${KIPRJMOD}/Footprints/inductor.pretty") (options "") (descr ""))
 	(lib (name "10uF24Vcap") (type "KiCad") (uri "${KIPRJMOD}/Footprints/10uF24Vcap.pretty") (options "") (descr ""))
 	(lib (name "20uF5Vcap") (type "KiCad") (uri "${KIPRJMOD}/Footprints/20uF5Vcap.pretty") (options "") (descr ""))
+	(lib (name "TestPoint07") (type "KiCad") (uri "${KIPRJMOD}/Footprints/TestPoint07.pretty") (options "") (descr ""))
 )

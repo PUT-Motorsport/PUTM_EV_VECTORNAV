@@ -1,35 +1,248 @@
-(module "GRM31x" (layer F.Cu)
-  (descr "GRM31x")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "GRM31x" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.854 -1.902) (end 2.854 -1.902) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.854 -1.902) (end 2.854 1.902) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.854 1.902) (end -2.854 1.902) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.854 1.902) (end -2.854 -1.902) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -0.7 -0.8) (end 0.7 -0.8) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.7 0.8) (end 0.7 0.8) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.4 -0.1) (end -2.4 -0.1) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.4 0.1) (end -2.4 0.1) (layer F.SilkS) (width 0.2))
-  (fp_arc (start -2.4 -0) (end -2.400 -0.1) (angle -180) (layer F.SilkS) (width 0.2))
-  (fp_arc (start -2.4 -0) (end -2.400 0.1) (angle -180) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.475 -0 0) (size 1.050 1.600) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.475 -0 0) (size 1.050 1.600) (layers F.Cu F.Paste F.Mask))
-  (model GRM31CR61A476ME15L.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "GRM31x"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "GRM31x")
+	(tags "Capacitor")
+	(property "Reference" "C21"
+		(at 0 -1.75 180)
+		(layer "F.SilkS")
+		(uuid "a90607cc-91d9-4ce0-a4cd-745e99f21912")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "20uF"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a4c4d919-533b-4756-81d6-7021b197b090")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://ds.murata.com/simsurfing/mlcc.html?partnumbers=%5B%22GRM31CR61A476ME15%22%5D&oripartnumbers=%5B%22GRM31CR61A476ME15L%22%5D&rgear=suaykx&rgearinfo=com"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e47fc87f-6f6f-4d57-a215-5f078f6720fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "unpolarized cap"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f58ec432-f47e-4a97-b880-1a9675ed0a5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM31CR61A476ME15L?qs=Uw8ySfEHS7LqTKNQpigOcw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb91659a-e2fb-4fac-8a6e-cbda09f3a47f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "C_*")
+	(sheetname "/Power/")
+	(sheetfile "power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.4 -0.1)
+		(end -2.4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07765510-de0a-4d86-a871-91025877c055")
+	)
+	(fp_line
+		(start -2.4 0.1)
+		(end -2.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e10a783-ef80-40cb-8101-37c885a95dba")
+	)
+	(fp_line
+		(start -0.7 -0.8)
+		(end 0.7 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2759d76a-2adb-4fdf-854e-77a423a5b44c")
+	)
+	(fp_line
+		(start -0.7 0.8)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "278b01b9-68e7-4f50-942b-6e99f109d6f9")
+	)
+	(fp_arc
+		(start -2.4 -0.1)
+		(mid -2.3 0)
+		(end -2.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb6673fc-21d3-4295-a459-70434bf6a080")
+	)
+	(fp_arc
+		(start -2.4 0.1)
+		(mid -2.5 0)
+		(end -2.4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2381e3cd-4eef-48e3-82b7-86482d90e35b")
+	)
+	(fp_line
+		(start -2.354 1.4)
+		(end -2.354 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "75ab85bd-cb7d-4fa2-88f9-20681b94f2b4")
+	)
+	(fp_line
+		(start -2.35 -1.402)
+		(end 2.35 -1.402)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7d28cc0b-daa2-4f39-bcc7-86b19ef912e8")
+	)
+	(fp_line
+		(start 2.35 1.402)
+		(end -2.35 1.402)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85962cc4-aa44-4e02-a1bd-8756dd0baadf")
+	)
+	(fp_line
+		(start 2.354 -1.4)
+		(end 2.354 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b78dac47-3d81-40bb-951d-36c91c1744b9")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3656a62e-5475-4670-85df-aa3497b16e95")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f506665c-48d4-4a46-8a3e-628ef5c491b5")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2072333e-13f8-4475-a208-ef193ecc2f87")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d59014cd-21b7-4c36-8a4c-0a31065429ea")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ce36cdac-da6d-4c1a-bfd1-5b225de1e430")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.05 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "41ca4b9c-b272-4e3a-b746-c81a79847142")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.05 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78a6027b-4db7-417f-a671-fd1d90d9fa88")
+	)
+	(embedded_fonts no)
+	(model "GRM31CR61A476ME15L.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

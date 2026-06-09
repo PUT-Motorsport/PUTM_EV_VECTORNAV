@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -775,7 +775,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Reference"
     },
     "bus_aliases": {
@@ -845,7 +845,7 @@
         "uuid": "b652b05a-4e3d-4ad1-b032-18886abe7d45"
       }
     ],
-    "used_designators": "PS1,C21,TP1-10",
+    "used_designators": "C28-32,TP9-12",
     "variants": []
   },
   "sheets": [

@@ -5,7 +5,8 @@
 	(uuid "0ebf9782-0549-4861-a772-8da3d94c4150")
 	(paper "A4")
 	(title_block
-		(company "Author:")
+		(company "Author: Kacper Pawlak")
+		(comment 1 "Reviewer: Piotr Lesicki")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
