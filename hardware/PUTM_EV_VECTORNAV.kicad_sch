@@ -360,7 +360,7 @@
 				(justify left)
 			)
 		)
-		(pin "VN_TX" output
+		(pin "VN_TX" input
 			(at 110.49 49.53 180)
 			(uuid "09042abd-aa30-4145-9154-aa8f0a9f385f")
 			(effects

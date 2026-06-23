@@ -8237,7 +8237,7 @@
 		(uuid "5e18f143-a213-47bb-a921-eaed3a7253d5")
 	)
 	(hierarchical_label "VN_TX"
-		(shape output)
+		(shape input)
 		(at 162.56 88.9 0)
 		(effects
 			(font
