@@ -2998,17 +2998,6 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 41.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150060BS55040?qs=fAHHVMwC%252BbiEgEQkEQqtiA%3D%3D"
 			(at 41.91 88.9 0)
 			(hide yes)
@@ -3020,7 +3009,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 41.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3031,51 +3020,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 41.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 41.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 41.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 41.91 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "710-150060BS55040"
 			(at 41.91 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3256,7 +3201,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3267,51 +3212,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 44.45 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 44.45 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 44.45 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 44.45 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "621-DMN63D8L-13"
 			(at 44.45 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3415,7 +3316,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 54.61 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -3426,51 +3327,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 54.61 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 54.61 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 54.61 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 54.61 109.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-AC0603FR-0710KL"
 			(at 54.61 109.22 90)
 			(hide yes)
 			(show_name no)
@@ -3728,7 +3585,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 157.48 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -3739,51 +3596,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 157.48 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 157.48 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 157.48 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 157.48 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "71-CRCW06031K00FKEE71-CRCW06031K00FKEE"
 			(at 157.48 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -4032,7 +3845,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C105K4RACTU?qs=STjISULpmtZNMAZGR4X39Q%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/KEMET/C0603C105K4RAC3121?qs=6o2YKydedXTMBzPN6cFE8w%3D%3D"
 			(at 130.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4043,7 +3856,7 @@
 				)
 			)
 		)
-		(property "Mouser No" "80-C0603C105K4R"
+		(property "Mouser No" "80-C0603C105K4R3121"
 			(at 130.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4054,8 +3867,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
-			(at 130.81 64.77 0)
+		(property "KLC_S6.2" ""
+			(at 130.81 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +3959,7 @@
 				)
 			)
 		)
-		(property "Mouser" "---"
+		(property "Mouser" "somewhere"
 			(at 125.73 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4157,7 +3970,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "KLC_S6.2" ""
 			(at 125.73 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4168,7 +3981,7 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "---"
 			(at 125.73 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4354,7 +4167,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 77.47 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -4365,51 +4178,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 77.47 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 77.47 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-TR0603MR-07100RL"
 			(at 77.47 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -4511,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 60.96 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4522,51 +4291,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 60.96 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 60.96 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 60.96 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 60.96 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-TR0603MR-07100RL"
 			(at 60.96 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4668,7 +4393,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 77.47 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -4679,51 +4404,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 77.47 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 77.47 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-TR0603MR-07100RL"
 			(at 77.47 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -4824,7 +4505,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 41.91 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -4835,51 +4516,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 41.91 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 41.91 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 41.91 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 41.91 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "71-RCS0603330RJNEA"
 			(at 41.91 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -4983,7 +4620,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "KLC_S6.2" ""
 			(at 163.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4994,7 +4631,7 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "---"
 			(at 163.83 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5077,6 +4714,39 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 163.83 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 163.83 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 163.83 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "---"
 			(at 163.83 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5175,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 181.61 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5186,51 +4856,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 181.61 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 181.61 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 181.61 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 181.61 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-RC0603FR-7W33RL"
 			(at 181.61 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5332,7 +4958,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 77.47 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -5343,51 +4969,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 77.47 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 77.47 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 77.47 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 77.47 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-TR0603MR-07100RL"
 			(at 77.47 81.28 90)
 			(hide yes)
 			(show_name no)

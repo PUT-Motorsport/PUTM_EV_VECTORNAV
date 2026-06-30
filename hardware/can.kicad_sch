@@ -2556,17 +2556,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2508052027Y1"
-			(at 148.59 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 148.59 50.8 0)
 			(hide yes)
@@ -2589,62 +2578,7 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 148.59 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 148.59 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 148.59 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 148.59 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 148.59 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 148.59 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2834,73 +2768,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
-			(at 134.62 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 134.62 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 134.62 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 134.62 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 134.62 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 134.62 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 134.62 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -2990,17 +2858,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2508052027Y1"
-			(at 91.44 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 91.44 100.33 90)
 			(hide yes)
@@ -3023,62 +2880,7 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 91.44 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 91.44 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 91.44 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 91.44 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 91.44 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -3190,73 +2992,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
-			(at 166.37 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 166.37 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 166.37 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 166.37 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 166.37 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 166.37 45.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 166.37 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -3426,17 +3162,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ADM3057EBRWZ"
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Analog-Devices/ADM3057EBRWZ?qs=PqoDHHvF649%2FWAcdgp0Vvw%3D%3D"
 			(at 125.73 93.98 0)
 			(hide yes)
@@ -3459,62 +3184,7 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 125.73 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 125.73 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3738,17 +3408,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2508052027Y1"
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 152.4 50.8 0)
 			(hide yes)
@@ -3771,62 +3430,7 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4017,73 +3621,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 82.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 82.55 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4195,73 +3733,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
-			(at 134.62 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 134.62 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 134.62 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 134.62 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 134.62 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 134.62 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 134.62 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -4609,73 +4081,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C104M4RACAUTO"
-			(at 68.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 68.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 68.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 68.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 68.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 68.58 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 68.58 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4858,7 +4264,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "KLC_S6.2" ""
 			(at 101.6 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4869,7 +4275,7 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "603-AC0603FR-070RL"
 			(at 101.6 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -4970,7 +4376,7 @@
 				)
 			)
 		)
-		(property "Mouser No" "80-C0603C103J5RAUTO"
+		(property "Mouser No" "81-GCM188R71H103KA7J"
 			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4981,73 +4387,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C103J5RACAUTO"
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 74.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5148,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Mouser No" "80-C0603C103J5RAUTO"
+		(property "Mouser No" "81-GCM188R71H103KA7J"
 			(at 166.37 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -5159,73 +4499,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C103J5RACAUTO"
-			(at 166.37 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 166.37 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 166.37 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 166.37 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 166.37 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 166.37 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 166.37 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -5418,73 +4692,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GRM21BR61A476ME15L"
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 100.33 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 100.33 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5575,17 +4783,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "2508052027Y1"
-			(at 91.44 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 91.44 95.25 90)
 			(hide yes)
@@ -5608,62 +4805,7 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 91.44 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 91.44 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 91.44 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 91.44 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 91.44 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 91.44 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -5777,74 +4919,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "S252B222K502CT"
-			(at 125.73 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 125.73 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 125.73 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 125.73 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 125.73 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 125.73 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 125.73 125.73 0)
+		(property "KLC_S6.2" ""
+			(at 125.73 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

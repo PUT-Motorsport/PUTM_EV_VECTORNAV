@@ -3750,6 +3750,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 83.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CD71H106KE1L"
+			(at 83.82 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "347d7a81-7ffb-43fa-be10-8e1d4107381b")
 		)
@@ -3823,6 +3845,39 @@
 		)
 		(property "Description" "test point"
 			(at 229.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 229.87 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 229.87 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 229.87 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3997,7 +4052,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 158.75 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4008,51 +4063,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 158.75 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 158.75 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 158.75 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "767-LS1808N151K302NT"
 			(at 158.75 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4231,6 +4242,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 106.68 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "919-RLS-397"
+			(at 106.68 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c564ece-67c0-4c9a-9d89-fbc153d114d2")
 		)
@@ -4323,7 +4356,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 59.69 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -4334,51 +4367,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 59.69 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 59.69 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 59.69 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 59.69 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "863-SZMMSZ4697T1G"
 			(at 59.69 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -4469,48 +4458,6 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 50.8 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/SI2347DS-T1-GE3?qs=wnm%2FPMJNddFQv4lfacOrcA%3D%3D"
-			(at 50.8 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" ""
-			(at 50.8 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "78-SI2347DS-T1-GE3"
-			(at 50.8 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Vishay-Siliconix/SI2347DS-T1-BE3?qs=CiayqK2gdcKO20jBryl1OQ%3D%3D"
 			(at 50.8 85.09 90)
 			(hide yes)
@@ -4522,7 +4469,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser No" "78-SI2347DS-T1-BE3"
 			(at 50.8 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4533,51 +4480,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 50.8 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 50.8 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 50.8 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 50.8 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 50.8 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4760,6 +4663,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CR61A476ME5L"
+			(at 182.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "63a6a85c-0c87-45d9-8a02-f1dcbea556c8")
 		)
@@ -4842,6 +4767,28 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM31CD71H106KE11L?qs=sGAEpiMZZMvsSlwiRhF8qtsBU8Zhqm2RkDKNaFsqcsjGXuQe8TMk%252BQ%3D%3D"
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 93.98 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CD71H106KE1L"
 			(at 93.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5010,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=sGAEpiMZZMvsSlwiRhF8qmz4GBGiC1clmSm1Iyhv5VVtC0STJ%2F5n0A%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R60J476ME15J?qs=5aG0NVq1C4w8O78wi%2F2m1g%3D%3D"
 			(at 229.87 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5021,7 +4968,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 229.87 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5032,51 +4979,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 229.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 229.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 229.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 229.87 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "81-GRM188R60J476ME5J"
 			(at 229.87 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5410,7 +5313,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 158.75 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -5421,51 +5324,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 158.75 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 158.75 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 158.75 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 158.75 82.55 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "767-LS1808N151K302NT"
 			(at 158.75 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -5568,6 +5427,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CD71H106KE1L"
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f4053f3-f69a-4fdc-8918-08bba37fb46a")
 		)
@@ -5641,6 +5522,39 @@
 		)
 		(property "Description" "test point"
 			(at 177.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 177.8 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 177.8 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 177.8 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,17 +5643,6 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Wurth-Elektronik/150060BS55040?qs=fAHHVMwC%252BbiEgEQkEQqtiA%3D%3D"
 			(at 255.27 99.06 90)
 			(hide yes)
@@ -5751,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 255.27 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5762,51 +5665,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 255.27 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 255.27 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 255.27 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 255.27 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "710-150060BS55040"
 			(at 255.27 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5900,6 +5759,28 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.pl/ProductDetail/Littelfuse/SMF26CA?qs=sGAEpiMZZMsItbzKdwyIe6ftNyuRnfKpG8NmTzdGi9lk%2FXUPYJLavQ%3D%3D"
+			(at 34.29 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 34.29 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "576-SMF26CA"
 			(at 34.29 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -6157,6 +6038,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CD71H106KE1L"
+			(at 133.35 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d1cd1e0-56b4-4a20-858f-c0bdebe444a2")
 		)
@@ -6248,7 +6151,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 255.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6259,51 +6162,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 255.27 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 255.27 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 255.27 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 255.27 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "71-RCS0603330RJNEA"
 			(at 255.27 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R60J476ME15D?qs=sGAEpiMZZMvsSlwiRhF8qmz4GBGiC1clmSm1Iyhv5VVtC0STJ%2F5n0A%3D%3D"
+		(property "Mouser" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R60J476ME15J?qs=5aG0NVq1C4w8O78wi%2F2m1g%3D%3D"
 			(at 209.55 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -6407,7 +6266,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6418,51 +6277,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 209.55 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 209.55 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 209.55 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 209.55 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "81-GRM188R60J476ME5J"
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6723,6 +6538,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 113.03 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CD71H106KE1L"
+			(at 113.03 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2cc6262a-691f-4feb-96c6-4f7656d8757f")
 		)
@@ -6805,18 +6642,6 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "919-RSH3-2405S/H2"
-			(at 170.18 590.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
 		(property "Mouser" "https://eu.mouser.com/ProductDetail/RECOM-Power/RSH3-2405S-H2?qs=By6Nw2ByBD0EYgRJFa5wLg%3D%3D&utm_id=9882661914&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gad_campaignid=9882661914&gbraid=0AAAAADn_wf1SU9wol6SEY7jndjRGRBrGX&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO1nKm5aeZ0NgSZ6kvyasFflUO_JimMTCeXaEfLMDqSDzKpqgiOJZZhoCuQAQAvD_BwE"
 			(at 170.18 690.17 0)
 			(hide yes)
@@ -6827,6 +6652,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Mouser No" "919-RSH3-2405S/H2"
+			(at 143.51 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 143.51 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -6925,6 +6772,39 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "---"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "---"
+			(at 142.24 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9795069a-b3b8-4eb2-8111-0539f407fe13")
 		)
@@ -6959,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Value" "NCP565D2T33R4G"
+		(property "Value" "863-NCP565D2T33R4G"
 			(at 219.71 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +6893,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser No" "863-NCP565D2T33R4G"
 			(at 219.71 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7024,51 +6904,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 219.71 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 219.71 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 219.71 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 219.71 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "KLC_S6.2" ""
 			(at 219.71 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7009,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 50.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7184,51 +7020,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 50.8 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 50.8 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 50.8 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 50.8 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "660-RK73B1JTTD104J"
 			(at 50.8 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7331,6 +7123,28 @@
 				)
 			)
 		)
+		(property "KLC_S6.2" ""
+			(at 123.19 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser No" "81-GRM31CD71H106KE1L"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d3bab82-449b-438b-8280-fe28497a4f3e")
 		)
@@ -7422,7 +7236,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "KLC_S6.2" ""
 			(at 29.21 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7433,51 +7247,7 @@
 				)
 			)
 		)
-		(property "License" ""
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
+		(property "Mouser No" "576-0467.250NR"
 			(at 29.21 82.55 0)
 			(hide yes)
 			(show_name no)
